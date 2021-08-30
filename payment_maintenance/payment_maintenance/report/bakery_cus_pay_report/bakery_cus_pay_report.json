@@ -1,0 +1,27 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2021-08-25 14:25:57.878485",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2021-08-25 14:27:02.686834",
+ "modified_by": "Administrator",
+ "module": "Payment Maintenance",
+ "name": "Bakery Cus Pay Report",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select customer,amount_paid,balance_amount from `tabBakery Cus Payment`",
+ "ref_doctype": "Bakery Cus Payment",
+ "report_name": "Bakery Cus Pay Report",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}
