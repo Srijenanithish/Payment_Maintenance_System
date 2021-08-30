@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include payment_maintenance *.css
+recursive-include payment_maintenance *.csv
+recursive-include payment_maintenance *.html
+recursive-include payment_maintenance *.ico
+recursive-include payment_maintenance *.js
+recursive-include payment_maintenance *.json
+recursive-include payment_maintenance *.md
+recursive-include payment_maintenance *.png
+recursive-include payment_maintenance *.py
+recursive-include payment_maintenance *.svg
+recursive-include payment_maintenance *.txt
+recursive-exclude payment_maintenance *.pyc
